@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 :root {
   --olive-green: #546238;
+  --light-olive: #8d9354;
   --azure-blue: #49c2ce;
   --black: #1a1c1e;
   --sand: #f0e4de;
@@ -93,8 +94,13 @@ h2 {
   width: 100%;
 }
 
+.form-row input:focus {
+  outline: none;
+  border: 2px solid var(--olive-green);
+}
+
 .create-account {
-  margin-top: 4vh;
+  margin-top: 5vh;
   margin-bottom: 2vh;
 }
 
@@ -108,6 +114,10 @@ h2 {
   outline: none;
   color: white;
   cursor: pointer;
+}
+
+.create-account button:hover {
+  background-color: var(--light-olive);
 }
 
 .log-in {

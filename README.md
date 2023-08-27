@@ -18,7 +18,8 @@ This is a solution to the [Sign-up Form Project on The Odin Project](https://www
 
 ### Screenshot
 
-![](./assets/screenshot.png)
+![](./assets/screenshot-desktop.png)
+![](./assets/screenshot-mobile.png)
 
 ### Links
 
@@ -39,6 +40,7 @@ This is a solution to the [Sign-up Form Project on The Odin Project](https://www
 - How to properly layout vertical background image with -size, -position, -repeat
 - Flex-flow
 - Basic RegEx
+- Form validation
 
 ### Continued development
 
