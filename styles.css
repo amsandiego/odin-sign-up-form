@@ -40,10 +40,6 @@ section.sign-up {
   padding: 3vw;
 }
 
-h1 {
-  font-weight: 700;
-}
-
 .logo {
   display: flex;
   justify-content: center;
@@ -65,6 +61,7 @@ h1.likha {
   letter-spacing: 2rem;
   font-size: clamp(2rem, 3rem, 3.5rem);
   color: var(--black);
+  font-weight: 700;
 }
 
 h2 {
@@ -93,6 +90,7 @@ h2 {
   border: 1px solid var(--gold);
   border-radius: 3px;
   padding: 7px;
+  width: 100%;
 }
 
 .create-account {
@@ -105,11 +103,11 @@ h2 {
   font-size: 1.5rem;
   border-radius: 5px;
   border-style: none;
-  border-style: solid 5px;
   padding: 10px 30px;
   letter-spacing: 0.05rem;
   outline: none;
   color: white;
+  cursor: pointer;
 }
 
 .log-in {
@@ -123,10 +121,40 @@ a {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 840px) {
   body {
     flex-flow: column wrap;
     height: auto;
     text-align: center;
+  }
+
+  section.photo-container {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    background-size: 100vw;
+  }
+
+  .logo {
+    top: 5vh;
+    padding: 15px 5px;
+    height: 10vh;
+    width: 100vw;
+  }
+
+  section.sign-up {
+    width: auto;
+    height: 80vh;
+    justify-content: flex-start;
+    padding-top: 4vh;
+  }
+
+  .form-container {
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .log-in {
+    justify-content: center;
   }
 }

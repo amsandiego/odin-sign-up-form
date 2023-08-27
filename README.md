@@ -38,6 +38,7 @@ This is a solution to the [Sign-up Form Project on The Odin Project](https://www
 - Using CSS custom properties
 - How to properly layout vertical background image with -size, -position, -repeat
 - Flex-flow
+- Basic RegEx
 
 ### Continued development
 

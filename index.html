@@ -41,7 +41,14 @@
           </div>
           <div class="form-row">
             <label for="phone">Phone</label>
-            <input type="tel" name="phone" id="phone" required />
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              pattern="^(09|\+639)\d{9}$"
+              title="Please enter a valid phone number, e.g. 09561234567."
+              required
+            />
           </div>
           <div class="form-row">
             <label for="password">Password</label>
